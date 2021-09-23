@@ -1,0 +1,27 @@
+//Projeto de tabuada, feito para aula de lógica da programação
+//Autor: Felipe Borges de Olivera Veríssimo
+
+programa
+{
+	
+	funcao inicio()
+	{
+	//Criei as variáveis necessárias, para funcionamento do programa
+		inteiro contador,limite,resultado,tabuada
+		//O contador recebe o valor inicial de zero, para ao decorrer do código receber o valor +1 e desenvolver a tabuada
+		contador = 0
+		limite = 10
+
+		escreva("Qual tabuada você quer o resultado? ")
+		leia(tabuada)
+	
+		
+		faca{
+			
+			resultado = tabuada * contador
+			escreva(tabuada + "X" + contador + "=" + resultado + "\n")
+			
+			contador++   //Aqui o objeto 'contador' recebe o valor de +1 e volta até chegar ao valor pré estabelecido em 'limite'
+		}enquanto (contador<=limite)
+	}
+}
